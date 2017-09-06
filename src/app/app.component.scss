@@ -1,0 +1,11 @@
+@import 'assets/scss/_global';
+
+
+.is-ancestor {
+    margin-top: 300px;
+
+    .tile {
+        min-height: 300px;
+        @include testShadow();
+    }
+}
